@@ -28,8 +28,8 @@ type FontConfig = {
 };
 
 /*
-	Replace with code for secondary and tertiary fonts
-	from https://once-ui.com/customize
+  Replace with code for secondary and tertiary fonts
+  from https://once-ui.com/customize
 */
 const secondary: FontConfig | undefined = undefined;
 const tertiary: FontConfig | undefined = undefined;
@@ -48,11 +48,11 @@ export async function generateMetadata(): Promise<Metadata> {
       description: og.description,
       url: "https://" + baseURL,
       images: [
-				{
-					url: og.image,
-					alt: og.title,
-				},
-			],
+        {
+          url: og.image,
+          alt: og.title,
+        },
+      ],
       type: og.type as
         | "website"
         | "article"
@@ -68,11 +68,11 @@ export async function generateMetadata(): Promise<Metadata> {
         | "video.other",
     },
     twitter: {
-			card: 'summary_large_image',
-			title: og.title,
-			description: og.description,
-			images: [og.image],
-		},
+      card: 'summary_large_image',
+      title: og.title,
+      description: og.description,
+      images: [og.image],
+    },
     metadataBase,
   };
 }
@@ -125,31 +125,40 @@ export default function RootLayout({
         />
       </head>
       <ToastProvider>
-        <Column as="body" fillWidth  margin="0" padding="0">
+        <Column as="body" fillWidth margin="0" padding="0">
           <Background
             position="absolute"
             mask={{
-              x: 100,
-              y: 0,
-              radius: 100,
+              cursor: false
             }}
             gradient={{
+              colorEnd: 'static-transparent',
+              colorStart: 'accent-solid-strong',
               display: true,
-              x: 100,
-              y: 60,
-              width: 70,
-              height: 50,
-              tilt: -40,
-              opacity: 90,
-              colorStart: "accent-background-strong",
-              colorEnd: "page-background",
+              height: 100,
+              opacity: 30,
+              tilt: 0,
+              width: 150,
+              x: 0,
+              y: 0
+            }}
+            dots={{
+              color: 'accent-on-background-medium',
+              display: false,
+              opacity: 100,
+              size: '64'
             }}
             grid={{
-              display: true,
+              color: 'neutral-alpha-medium',
+              display: false,
+              height: 'var(--static-space-32)',
               opacity: 100,
-              width: "0.25rem",
-              color: "neutral-alpha-medium",
-              height: "0.25rem",
+              width: 'var(--static-space-32)'
+            }}
+            lines={{
+              display: false,
+              opacity: 100,
+              size: '24'
             }}
           />
           {children}
