@@ -37,8 +37,8 @@ const Translator = () => {
     if (nepaliMeanings.length > 0) {
       result += `In Nepali language: ${nepaliMeanings.join(", ")}\n\n`;
     }
-    result += formattedOther;
-    // result;
+    // result += formattedOther;
+    result;
 
     return result;
   };
