@@ -1,4 +1,4 @@
-const baseURL = "demo.once-ui.com";
+const baseURL = "translation-git-main-iamdeenes-projects.vercel.app";
 
 // default customization applied to the HTML in the main layout.tsx
 const style = {
@@ -16,15 +16,15 @@ const style = {
 
 // default metadata
 const meta = {
-  title: "Once UI - Your Personalized Design System for Next.js",
+  title: "Transaltion Eng to Nep",
   description:
-    "An open-source design system and component library for Next.js that emphasizes easy styling and accessibility in UI development.",
+    "Transaltion Eng to Nep",
 };
 
 // default open graph data
 const og = {
-  title: "Once UI for Next.js",
-  description: "We let designers code and developers design.",
+  title: "Transaltion Eng to Nep",
+  description: "Transaltion Eng to Nep",
   type: "website",
   image: "/images/cover.jpg"
 };
@@ -33,16 +33,16 @@ const og = {
 const schema = {
   logo: "",
   type: "Organization",
-  name: "One UI",
-  description: "Once UI is an open-source design system and component library for Next.js.",
+  name: "Transaltion Eng to Nep",
+  description: "Transaltion Eng to Nep",
   email: "",
 };
 
 // social links
-const social = {
-  twitter: "https://www.twitter.com/_onceui",
-  linkedin: "https://www.linkedin.com/company/once-ui/",
-  discord: "https://discord.com/invite/5EyAQ4eNdS",
-};
+// const social = {
+//   twitter: "https://www.twitter.com/_nepalax",
+//   linkedin: "https://www.linkedin.com/company/nepalax",
+//   discord: "https://discord.com/invite/5EyAQ4eNdS",
+// };
 
 export { baseURL, style, meta, og, schema, social };
