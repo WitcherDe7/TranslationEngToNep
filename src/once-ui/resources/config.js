@@ -16,15 +16,15 @@ const style = {
 
 // default metadata
 const meta = {
-  title: "Transaltion Eng to Nep",
+  title: "Transaltion Eng to Nep Word Meaning",
   description:
-    "Transaltion Eng to Nep",
+    "Transaltion Eng to Nep Word Meaning",
 };
 
 // default open graph data
 const og = {
-  title: "Transaltion Eng to Nep",
-  description: "Transaltion Eng to Nep",
+  title: "Transaltion Eng to Nep Word Meaning",
+  description: "Transaltion Eng to Nep Word Meaning",
   type: "website",
   image: "/images/cover.jpg"
 };
@@ -33,15 +33,15 @@ const og = {
 const schema = {
   logo: "",
   type: "Organization",
-  name: "Transaltion Eng to Nep",
-  description: "Transaltion Eng to Nep",
+  name: "Transaltion Eng to Nep Word Meaning",
+  description: "Transaltion Eng to Nep Word Meaning",
   email: "",
 };
 
 // social links
 const social = {
-  twitter: "https://www.twitter.com/_nepalax",
-  linkedin: "https://www.linkedin.com/company/nepalax",
+  twitter: "https://www.twitter.com/falwickx",
+  linkedin: "https://www.linkedin.com/company/deenesacharya",
   discord: "https://discord.com/invite/",
 };
 
