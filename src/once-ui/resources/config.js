@@ -39,10 +39,10 @@ const schema = {
 };
 
 // social links
-// const social = {
-//   twitter: "https://www.twitter.com/_nepalax",
-//   linkedin: "https://www.linkedin.com/company/nepalax",
-//   discord: "https://discord.com/invite/5EyAQ4eNdS",
-// };
+const social = {
+  twitter: "https://www.twitter.com/_nepalax",
+  linkedin: "https://www.linkedin.com/company/nepalax",
+  discord: "https://discord.com/invite/",
+};
 
 export { baseURL, style, meta, og, schema, social };
